@@ -6,7 +6,7 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            ConsoleApplication.ConsolApp();
+            //ConsoleApplication.ConsolApp();
             //DoWhile.DoWhileTest();
             //Array.ArrayTest();
             //TestIfandSwitch.TestIfYear();
