@@ -12,7 +12,17 @@ namespace Project
 
             string userYearOfBirth = Console.ReadLine();
 
-            int YearOfBirth = int.Parse(userYearOfBirth);
+            int YearOfBirth;
+            if (int.TryParse(userYearOfBirth, out YearOfBirth))
+            {
+                int age = DateTime.Now.Year - YearOfBirth;
+
+                Console.WriteLine("you are " + age);
+            }
+            else
+            {
+                Console.WriteLine("incorrect value");
+            }
 
             bool isUserOver18 = DateTime.Now.Year - YearOfBirth > 18;
 

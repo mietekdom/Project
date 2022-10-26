@@ -6,8 +6,11 @@ namespace Project
     {
         static void Main(string[] args)
         {
+            ConsoleApplication.ConsolApp();
+            //DoWhile.DoWhileTest();
+            //Array.ArrayTest();
             //TestIfandSwitch.TestIfYear();
-            TestIfandSwitch.SwitchTest();
+            //TestIfandSwitch.SwitchTest();
         }
     }
 }
