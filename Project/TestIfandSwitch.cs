@@ -30,5 +30,25 @@ namespace Project
             }
             Console.WriteLine("bye!");
         }
+
+        public static void SwitchTest()
+        {
+            switch (DateTime.Now.DayOfWeek)
+            {
+                case DayOfWeek.Monday:
+                    Console.WriteLine("It is Monday today");
+                    break;
+                case DayOfWeek.Friday:
+                    Console.WriteLine("it is Friday today");
+                    break;
+                case DayOfWeek.Saturday:
+                case DayOfWeek.Sunday:
+                    Console.WriteLine("It is weeknd");
+                    break;
+                default:
+                    Console.WriteLine("In the meddle of the week");
+                    break;
+            }
+        }
     }
 }

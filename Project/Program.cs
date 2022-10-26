@@ -6,7 +6,8 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            TestIfandSwitch.TestIfYear();
+            //TestIfandSwitch.TestIfYear();
+            TestIfandSwitch.SwitchTest();
         }
     }
 }
