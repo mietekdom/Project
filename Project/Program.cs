@@ -6,6 +6,7 @@ namespace Project
     {
         static void Main(string[] args)
         {
+            DateTimeParseProgram.DateTimeCalculator();
             //ConsoleApplication.ConsolApp();
             //DoWhile.DoWhileTest();
             //Array.ArrayTest();
