@@ -4,11 +4,10 @@ using System.Text;
 
 namespace Project
 {
-    public class EnumTest
+    enum Gender
     {
-        public static void EnumTestItem()
-        {
-            //changes
-        }
+        Male = 1,
+        Female = 2
     }
+
 }
