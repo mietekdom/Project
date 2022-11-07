@@ -6,8 +6,10 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            //NullableProgram.Test();
+            DateTimeParseProgram.DateTimeCalculator();
+            //NullableProgram.Test(); //
             //GenderEnum.EnumGender();
+
             //ConsoleApplication.ConsolApp();
             //DoWhile.DoWhileTest();
             //Array.ArrayTest();
