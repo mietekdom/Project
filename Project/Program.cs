@@ -6,6 +6,8 @@ namespace Project
     {
         static void Main(string[] args)
         {
+            //NullableProgram.Test();
+            //GenderEnum.EnumGender();
             //ConsoleApplication.ConsolApp();
             //DoWhile.DoWhileTest();
             //Array.ArrayTest();
